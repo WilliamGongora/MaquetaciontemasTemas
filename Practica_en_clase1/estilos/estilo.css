@@ -1,0 +1,266 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+}
+
+.ancho{
+    max-width: 1200px;
+    margin: auto;
+}
+/* titulos*/
+.titulos h1{
+    padding: 0px 10px;
+    text-align: center;
+}
+.titulos h3{
+    text-align: center;
+    color: #1257e3;
+}
+hr{
+    width: 150px;
+    color:#cabde8;
+    height: 5px;
+    background-color: #cabde8;
+}
+/*fin titulos*/
+/*seccion 1*/
+.Seccion_Uno{
+    justify-content:center;
+    align-items: center;
+    gap: 60px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Seccion_Uno .foto{
+    width: 100%;
+    height: 350px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+}
+.foto img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.textoux{
+    width: 230px;
+    height: 150px;
+    display: flex;
+    background-color: #5F5F5F;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 13%;
+    transition: all 0.5s;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+.textoux i{
+    font-size: 20px;
+    display: inline-block;
+    color:  #5F5F5F;
+    padding: 5px;
+    background-color: white;
+    margin: 4px;
+    border-radius: 5px;
+}
+.textoux p{
+    display: inline-block;
+    margin: 0;
+    font-size: 15px;
+}
+.textoux h3{
+    margin-bottom: 10px;
+    display: inline-block;
+    margin: 0;
+    font-size: 18px;
+}
+.foto:hover .textoux{
+    top: 50%;
+}
+.foto:hover img{
+-webkit-backdrop-filter: grayscale(100%);
+filter: grayscale(100%);
+-webkit-transition: .3s ease-in-out;
+transition: .3 ease-in-out;
+}
+/*fin seccion1*/
+/*seccion2*/
+.Seccion_dos{
+    background-color: #eff2f7;
+    padding: 40px;
+}
+.team{
+display: flex;
+justify-content:center;
+align-items: center;
+gap: 60px;
+display:flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+.team article
+{
+   width: 250px;
+   height: auto;
+   text-align: center;
+}
+.teamfigure{
+    width: 250px;
+    height: 70%;
+    margin: 0;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+    overflow: hidden;
+}
+.team img{
+    width: 250px;
+    height: 100%;
+}
+.azul{
+    width: 250px;
+    height: 100%;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transition: all 0.5s;
+    color: white;
+    text-align: center;   
+}
+.iconos{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 30%;
+    right: -20%;
+    transition: all 0.5s;
+    text-align: center;
+}
+.teamfigure:hover .azul{
+    background: rgba(15, 27, 255, 0.674);
+}
+.teamfigure:hover .iconos{
+    right: 0;
+}
+.iconos i{
+    padding: 5px;
+    flex-direction: column;
+    color: blue;
+    display: block;
+    font-size: 20px;
+}
+.descripcion{
+    width: 250px;
+    height: 30%;  
+    border-bottom: 2px solid  #1257e3;  
+}
+/*fin seccion2*/
+/*seccion3*/
+.Precios{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 60px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.Precios article{
+    border: 2px solid #eff2f7;
+    display: block;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.Precios article:hover{
+    border: 2px solid #1257e3;
+}
+.Precios article:hover p{
+    border: 2px solid #1257e3;
+}
+.Precios article:hover a{
+    background-color: #1257e3;
+    color: white;
+}
+.Precios p{
+    display: flex;
+    width: 200px;
+    border: 1px solid #eff2f7;
+    margin: auto;
+    line-height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.Precios h2{
+    color: #1257e3;
+}
+.Precios a{
+    padding: 15px;
+    text-decoration: none;
+    border: 1px solid #1257e3;
+    display: inline-block;
+    transition: all 0.5s;
+    margin-bottom: 10px;
+}
+
+
+/*fin seccion3*/
+/* seccion4*/
+.seccion_cuatro{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 60px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.seccion_cuatro article{
+    width: 300px;
+}
+.seccion_cuatro figure{
+    width: 100%;
+    height: 70%;
+    margin: 0;
+    overflow: hidden;
+}
+.seccion_cuatro img{
+    width: 100%;
+    height: 70%;
+    transition: all 0.5s;
+}
+.seccion_cuatro p{
+    display: block;
+    color: gray;
+}
+.seccion_cuatro a{
+    text-decoration: none;
+    color: gray;
+}
+.seccion_cuatro img:hover{
+    transform: scale(1.5);
+}
+
+/*fin seccion4*/

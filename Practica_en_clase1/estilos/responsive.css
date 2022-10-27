@@ -1,0 +1,15 @@
+@media screen and (max-width: 450px){
+.textoux{
+    top: 50%;
+}
+.foto img{
+    -webkit-backdrop-filter: grayscale(100%);
+    filter: grayscale(100%); 
+}
+.azul{
+    background: rgba(15, 27, 255, 0.674);
+}
+.iconos{
+    right: 0%;
+}
+}
